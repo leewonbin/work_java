@@ -14,7 +14,7 @@ public class VarEx3 {
 		// MAX_SPEED = 20; 상수는 값을 변경할 수 없다.
 		System.out.println(MAX_SPEED);	// 상수 MAX_SPEED 값을 출력
 		
-		int triangleArea = WIDTH / HEIGHT / 2;
+		int triangleArea = WIDTH * HEIGHT / 2;
 		System.out.println(triangleArea);
 	
 	}
