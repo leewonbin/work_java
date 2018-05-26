@@ -7,7 +7,7 @@ public class Ch02Ex02_06 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("두자리 정수를 하나 입력해주세요.>");
+		System.out.print("숫자 입력 ");
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
 		String input3 = scanner.nextLine();

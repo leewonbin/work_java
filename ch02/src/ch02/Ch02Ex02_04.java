@@ -7,7 +7,7 @@ public class Ch02Ex02_04 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("두 개의 정수를 입력 하시오.>");
+		System.out.print("두 개의 정수");
 		
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
