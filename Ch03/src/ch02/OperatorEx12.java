@@ -8,9 +8,9 @@ public class OperatorEx12 {
 		
 		int i = c1 + 1;			// 'a'+1 -> 97+1 -> 98
 		
-		c3 = (char) (c1 + 1);
-		c2++;
-		c2++;
+		c3 = (char) (c1 + 1);		// c1 + 1 -> 97 + 1 -> 98 -> 'b'
+		c2++;							// 98 -> 'b'			//98은 b의 아스킨 코드값
+		c2++;							// 99-> 'c'			// 99는 c의 아스킨 코드값
 		
 		System.out.println("i=" + i);
 		System.out.println("c2=" + c2);

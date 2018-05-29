@@ -9,6 +9,11 @@ public class OperatorEx01 {
 	   i=5;					//결과를 비교하기 위해 i값을 다시 5로 변경.
 	   ++i;
 	   System.out.println(i);
+	   
+	   /*
+	    * i++는 변수 5를 사용하고 1 증가
+	    * ++i는 먼저 1을 증가하고 변수 i를 사용
+	    */
 
 	
 	
