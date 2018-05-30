@@ -13,11 +13,18 @@ public class OperatorEx28 {
 		
 		// main 의 끝
 	}	
-		static String toBinaryString (int x)  {   //  10진 정수를 2진수로 변환하는 메서드
+	
+	static String toBinaryString (int x)  {   //  10진 정수를 2진수로 변환하는 메서드
 			String zero = "00000000000000000000000000000000";
 			String tmp = zero + Integer.toBinaryString(x);
+		
+			/*
+			 *  substring(int) 메소드
+			 *  괄호 안의 int 값에 해당하는 문자부터 문자열로 잘라낸다.
+			 */
+			
 			return tmp.substring(tmp.length () -32);
-		}
+	}
 	}
 
 
