@@ -19,7 +19,7 @@ Scanner scanner = new Scanner(System.in);
 		int b = (int)num1;
 		int c = (int)num2;
 		int d = a+b+c;
-		int e = (int)(num + num1 + num2)/3;
+		int e = (int)((num + num1 + num2)/3);
 		
 		System.out.printf("sum %d%n",d);
 		System.out.printf("avg %d",e);

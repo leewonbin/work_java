@@ -2,7 +2,7 @@ package ch03;
 
 import java.util.Scanner;
 
-public class Ch03Ex03_03 {
+public class Ch03Adv01 {
 	public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 		
@@ -10,16 +10,16 @@ Scanner scanner = new Scanner(System.in);
 		String input = scanner.nextLine();
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
+		String input3 = scanner.nextLine();
+		String[] a = input.split("//s");
+		String[] b = input1.split("//s");
+		String[] c = input2.split("//s");
+		String[] d = input3.split("//s");
+		
 		
 		int num = Integer.parseInt(input);
-		int num1 = Integer.parseInt(input1);
-		int num2 = Integer.parseInt(input2);
+	 
 		
-	
-		double a = (double)(num+num1+num2)/3;
-		
-		
-		System.out.printf("%.1f",a);
 	}
 
 }
