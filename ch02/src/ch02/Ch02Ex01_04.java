@@ -11,7 +11,7 @@ public class Ch02Ex01_04 {
 		String e = "note";
 		String f = "eraser";
 		
-		System.out.printf("%10s", a);
+		System.out.printf("%10s","item");
 		System.out.printf("%10s", b);
 		System.out.printf("%10s%n", c);
 		System.out.printf("%10s", d);
